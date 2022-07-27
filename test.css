@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: -2px;
+}
+
+header ul li{
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+header a:hover{
+    color: rgb(108, 90, 230);
+}
+
+.btn{
+    color: black;
+}
+
+li a{
+    margin-left: 11px;
+}
+
+.za{
+    font-size: 10px;
+}
+
+.main-img1{
+    width: 100%;
+    height: 798px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: -20px;
+
+}
+
+.main-img1 .main-img3{
+    position: absolute;
+    top: 0;
+    
+}
+
+.main-img2{
+    margin-left: 16%;
+    margin-top: -1500px;
+    width: 410px;
+    margin-bottom: 115px;
+    
+}
+
+.main-img3{
+    height: 798px;
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: -20px;
+    
+}
+
+.main-img4{
+    margin-top: -1500px;
+     width: 400px;
+    margin-left: 50%;
+    margin-bottom: 120px;
+}
+
+.btn2{
+    background-color: white;
+    color: rgba(159, 90, 205, 0.993);
+    padding: 0.81rem 1.87rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-right: 60px;
+    
+}
+
+.ay{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+   
+}
+
+h1{
+    color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    font-weight: 5%;
+    font-size: 2rem;
+    
+}
+
+.btn2:hover{
+    background-color: rgba(159, 90, 205, 0.993);
+    color: white;
+}
